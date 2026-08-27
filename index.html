@@ -3,172 +3,200 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Desenvolvimento de apps, sites, sistemas e MVPs sob medida.">
-  <meta name="theme-color" content="#090c0b">
+  <meta name="description" content="Alessandro Lacerda desenvolve sites, sistemas, dashboards e automações sob medida para empresas que querem organizar processos e melhorar resultados.">
+  <meta name="theme-color" content="#07110e">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Alessandro Lacerda — Produtos digitais">
-  <meta property="og:description" content="Apps, sites, sistemas e MVPs para transformar ideias em produtos que funcionam.">
-  <meta property="og:image" content="og.png">
+  <meta property="og:title" content="Alessandro Lacerda — Sites, sistemas e automações">
+  <meta property="og:description" content="Soluções digitais sob medida para organizar processos, substituir planilhas e melhorar resultados.">
+  <meta property="og:image" content="https://alessandro-lacerda-portfolio.onrender.com/og.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Alessandro Lacerda — Produtos digitais">
-  <meta name="twitter:description" content="Apps, sites, sistemas e MVPs para transformar ideias em produtos que funcionam.">
-  <meta name="twitter:image" content="og.png">
-  <title>Alessandro Lacerda — Produtos digitais</title>
+  <meta name="twitter:title" content="Alessandro Lacerda — Sites, sistemas e automações">
+  <meta name="twitter:description" content="Soluções digitais sob medida para empresas.">
+  <meta name="twitter:image" content="https://alessandro-lacerda-portfolio.onrender.com/og.png">
+  <title>Alessandro Lacerda — Sites, sistemas e automações</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="noise" aria-hidden="true"></div>
-  <header class="site-header">
-    <a class="wordmark" href="#inicio" aria-label="Ir para o início"><span>ALESSANDRO</span><b>LACERDA</b></a>
-    <nav aria-label="Navegação principal">
-      <a href="#projetos">Projetos</a>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#inicio" aria-label="Alessandro Lacerda — início">
+      <span class="brand-mark">AL</span>
+      <span>Alessandro <b>Lacerda</b></span>
+    </a>
+    <nav id="mainNav" aria-label="Navegação principal">
       <a href="#servicos">Serviços</a>
-      <a href="#processo">Processo</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#processo">Como funciona</a>
+      <a href="#sobre">Sobre</a>
     </nav>
-    <a class="header-cta" href="https://wa.me/5551984384312?text=Olá%2C%20Alessandro!%20Quero%20falar%20sobre%20um%20projeto." target="_blank" rel="noopener">Vamos conversar <span>↗</span></a>
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <a class="header-cta" data-whatsapp data-message="Olá, vi seu portfólio e gostaria de solicitar um orçamento." href="#contato">Solicitar orçamento <span>↗</span></a>
+    <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mainNav">☰</button>
   </header>
 
-  <main>
+  <main id="conteudo">
     <section class="hero" id="inicio">
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="hero-copy reveal">
-        <div class="availability"><span></span> Agenda aberta para novos projetos</div>
-        <h1>Ideias que saem<br>do papel. <em>Produtos<br>que funcionam.</em></h1>
-        <p>Sou Alessandro Lacerda. Desenvolvo apps, sites, sistemas e MVPs para transformar problemas reais em soluções digitais simples, bonitas e prontas para crescer.</p>
+      <div class="hero-aurora" aria-hidden="true"></div>
+      <div class="hero-copy reveal visible">
+        <div class="eyebrow"><span></span> Soluções digitais para empresas</div>
+        <h1>Desenvolvo sites, sistemas e <em id="rotatingWord">automações</em> para empresas.</h1>
+        <p>Transformo processos manuais, planilhas e ideias em soluções digitais personalizadas — simples de usar, profissionais e prontas para gerar resultado.</p>
         <div class="hero-actions">
-          <a class="button button-light" href="#contato">Tirar minha ideia do papel <span>↗</span></a>
-          <a class="button button-ghost" href="#projetos"><span class="play">▶</span> Ver projetos</a>
+          <a class="button button-primary" href="#projetos">Ver projetos <span>↓</span></a>
+          <a class="button button-secondary" href="#contato">Solicitar orçamento <span>↗</span></a>
+        </div>
+        <div class="hero-trust" aria-label="Diferenciais">
+          <span>✓ Atendimento direto</span>
+          <span>✓ Projeto sob medida</span>
+          <span>✓ Suporte na entrega</span>
         </div>
       </div>
-      <div class="hero-visual reveal delay-1" aria-label="Visualização de interface digital">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
-        <div class="code-window">
-          <div class="window-top"><i></i><i></i><i></i><span>produto-digital.app</span></div>
-          <div class="window-content">
-            <div class="mini-sidebar"><b>LF</b><span></span><span></span><span></span></div>
-            <div class="mini-main"><small>VISÃO GERAL</small><strong>Seu negócio,<br><em>mais simples.</em></strong><div class="mini-cards"><i></i><i></i><i></i></div></div>
-          </div>
-        </div>
-      </div>
-      <span class="scroll-hint">EXPLORE ↓</span>
-    </section>
 
-    <div class="marquee" aria-label="Especialidades"><div class="marquee-track">
-      <span>APLICATIVOS</span><i>✦</i><span>SITES</span><i>✦</i><span>SISTEMAS</span><i>✦</i><span>MVPS</span><i>✦</i><span>AUTOMAÇÕES</span><i>✦</i><span>DASHBOARDS</span><i>✦</i>
-      <span>APLICATIVOS</span><i>✦</i><span>SITES</span><i>✦</i><span>SISTEMAS</span><i>✦</i><span>MVPS</span><i>✦</i><span>AUTOMAÇÕES</span><i>✦</i><span>DASHBOARDS</span><i>✦</i>
-    </div></div>
-
-    <section class="section projects" id="projetos">
-      <div class="section-head reveal">
-        <div><span class="kicker">01 / PROJETOS</span><h2>Soluções criadas para<br><em>resolver de verdade.</em></h2></div>
-        <p>Produtos pensados do primeiro fluxo à última tela, com foco em uso simples, operação eficiente e resultado.</p>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card project-featured reveal">
-          <div class="project-number">01</div>
-          <div class="project-art wms-art">
-            <div class="app-frame">
-              <div class="app-bar"><b><span>↳</span> LacerdaFlux</b><i></i><i></i><i></i></div>
-              <div class="app-body"><aside><span></span><span></span><span></span><span></span></aside><div class="dashboard"><small>CENTRAL DE OPERAÇÕES</small><h3>Visão geral</h3><div class="dash-cards"><div><small>ESTOQUE</small><b>12.458</b></div><div><small>SKUS</small><b>1.284</b></div><div><small>DIVERGÊNCIAS</small><b>14</b></div></div><div class="dash-table"><span></span><span></span><span></span><span></span></div></div></div>
+      <div class="hero-stage reveal visible" aria-label="Exemplo de solução empresarial">
+        <div class="stage-orbit orbit-a"></div>
+        <div class="stage-orbit orbit-b"></div>
+        <div class="product-window">
+          <div class="window-bar"><i></i><i></i><i></i><span>solução-empresarial.app</span></div>
+          <div class="window-layout">
+            <aside><b>AL</b><span></span><span></span><span></span><span></span></aside>
+            <div class="window-dashboard">
+              <small>VISÃO GERAL</small>
+              <h2>Operação sob controle.</h2>
+              <div class="window-metrics"><span><small>PROCESSOS</small><b>+42%</b></span><span><small>PLANILHAS</small><b>−8</b></span><span><small>TEMPO</small><b>−31%</b></span></div>
+              <div class="window-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div>
             </div>
           </div>
-          <div class="project-info"><div><span>PRODUTO SAAS · WMS</span><h3>LacerdaFlux</h3><p>Estoque, inventário, movimentações, lotes e validades em uma única plataforma.</p></div><a href="https://lacerdaflux.onrender.com" target="_blank" rel="noopener" aria-label="Abrir projeto LacerdaFlux">↗</a></div>
-        </article>
-
-        <article class="project-card reveal delay-1">
-          <div class="project-number">02</div>
-          <div class="project-art mobile-art">
-            <div class="phone phone-back"><div class="phone-screen"><small>INVENTÁRIO</small><strong>Escaneie o<br>endereço</strong><span class="scan-line"></span><div class="scan-box">⌗</div></div></div>
-            <div class="phone"><div class="phone-screen"><small>CONTAGEM</small><strong>SKU 78945</strong><div class="count-box"><span>Sistema <b>120</b></span><span>Contado <b>118</b></span><em>Diferença −2</em></div><button>Confirmar</button></div></div>
-          </div>
-          <div class="project-info"><div><span>DASHBOARD · INVENTÁRIO</span><h3>Cycle Count Dashboard</h3><p>Produtividade, qualidade, divergências, ciclos e evolução operacional.</p></div><a href="https://cycle-count-dashboard-cad-rs.onrender.com/" target="_blank" rel="noopener" aria-label="Abrir Cycle Count Dashboard">↗</a></div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-number">03</div>
-          <div class="project-art site-art cafe-art"><div class="browser-frame"><div class="browser-bar"><i></i><i></i><i></i><span>grancafe.app</span></div><div class="landing"><div class="landing-nav"><b>GRANCAFÉ</b><span>Caixa&nbsp;&nbsp; Estoque&nbsp;&nbsp; Histórico</span></div><small>CAIXA ABERTO · OPERADOR ALESSANDRO</small><strong>Venda simples.<br><em>Gestão completa.</em></strong><button>Finalizar venda ↗</button></div></div></div>
-          <div class="project-info"><div><span>PDV · GOOGLE APPS SCRIPT</span><h3>GranCafé</h3><p>Caixa para cafeteria com vendas, estoque, fechamento e comprovantes.</p></div><b class="soon">PROJETO REAL</b></div>
-        </article>
-
-        <article class="project-card reveal delay-1">
-          <div class="project-number">04</div>
-          <div class="project-art automation-art"><div class="flow-node start">Empresa cadastrada</div><span class="flow-line one"></span><div class="flow-node mid">Contrato ativo</div><span class="flow-line two"></span><div class="flow-node end">Financeiro calculado ✓</div><div class="pulse"></div></div>
-          <div class="project-info"><div><span>GESTÃO · FINANCEIRO</span><h3>Gestão de Estágios</h3><p>Empresas, contratos, estagiários, pagamentos e indicadores financeiros.</p></div><b class="soon">PROJETO REAL</b></div>
-        </article>
-
-        <article class="project-card reveal">
-          <div class="project-number">05</div>
-          <div class="project-art losses-art">
-            <div class="loss-dashboard"><small>CONTROLE OPERACIONAL</small><h3>Sobras &amp; Avarias</h3><div class="loss-kpis"><span><small>SOBRAS</small><b>248</b></span><span><small>AVARIAS</small><b>37</b></span><span><small>PENDENTES</small><b>06</b></span></div><div class="loss-list"><i></i><i></i><i></i><i></i></div></div>
-          </div>
-          <div class="project-info"><div><span>OPERAÇÃO · CONTROLE DE PERDAS</span><h3>Controle de Sobras e Avarias</h3><p>Registros, SKUs, barris, anotações e passagem de turno.</p></div><b class="soon">PROJETO REAL</b></div>
-        </article>
-
-        <article class="project-card reveal delay-1">
-          <div class="project-number">06</div>
-          <div class="project-art retail-art">
-            <div class="checkout"><div class="checkout-products"><small>PRODUTOS</small><div><i></i><i></i><i></i><i></i></div></div><div class="checkout-cart"><small>PEDIDO ATUAL</small><span>Arroz 5kg <b>R$ 28,50</b></span><span>Café 500g <b>R$ 18,90</b></span><span>Leite 1L <b>R$ 4,79</b></span><strong>TOTAL <b>R$ 52,19</b></strong><button>Finalizar venda</button></div></div>
-          </div>
-          <div class="project-info"><div><span>VAREJO · PDV E ESTOQUE</span><h3>Sistema de Supermercado</h3><p>Caixa, produtos, vendas e controle operacional para pequenos mercados.</p></div><b class="soon">PROJETO REAL</b></div>
-        </article>
-
-        <article class="project-card project-featured reveal">
-          <div class="project-number">07</div>
-          <div class="project-art tools-art"><div class="tool-box"><div class="tool-box-head"><b>Estoque de Ferramentas</b><span>Busca por caixa ou item</span></div><div class="tool-grid"><div><i>◈</i><span>Furadeira</span><small>CAIXA 04 · 2 UN.</small></div><div><i>⌁</i><span>Chave de impacto</span><small>CAIXA 07 · 1 UN.</small></div><div><i>△</i><span>Serra circular</span><small>CAIXA 02 · 3 UN.</small></div><div><i>⊕</i><span>Multímetro</span><small>CAIXA 09 · 2 UN.</small></div></div></div></div>
-          <div class="project-info"><div><span>ESTOQUE · ORGANIZAÇÃO</span><h3>Estoque de Ferramentas</h3><p>Localização e controle de ferramentas organizadas por caixas.</p></div><b class="soon">PROJETO REAL</b></div>
-        </article>
+        </div>
+        <div class="floating-note note-one"><span>✓</span><div><b>Processo automatizado</b><small>Menos trabalho manual</small></div></div>
+        <div class="floating-note note-two"><span>↗</span><div><b>Dados organizados</b><small>Decisões mais rápidas</small></div></div>
       </div>
     </section>
 
-    <section class="section statement" id="servicos">
-      <div class="reveal"><span class="kicker">02 / COMO POSSO AJUDAR</span><h2>Não entrego apenas telas.<br><em>Construo soluções.</em></h2></div>
-      <div class="statement-side reveal delay-1"><p>Entendo o problema, organizo a ideia e desenvolvo uma experiência digital que sua equipe e seus clientes realmente conseguem usar.</p><div class="tag-list"><span>Apps</span><span>Sites</span><span>Sistemas</span><span>MVPs</span><span>Dashboards</span><span>Automação</span></div></div>
+    <section class="proof-strip" aria-label="Resumo profissional">
+      <div><strong data-counter="7">0</strong><span>projetos desenvolvidos</span></div>
+      <div><strong data-counter="5">0</strong><span>tipos de solução</span></div>
+      <div><strong>100%</strong><span>responsivo e sob medida</span></div>
+      <div class="proof-cta"><span>Tem uma ideia ou processo para melhorar?</span><a href="#contato">Vamos conversar ↗</a></div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="section-heading reveal">
+        <div><span class="section-index">01 / SERVIÇOS</span><h2>Como posso ajudar<br><em>sua empresa.</em></h2></div>
+        <p>Da presença digital à organização da operação: cada projeto começa pelo problema que precisa ser resolvido.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card reveal"><span class="service-icon" aria-hidden="true">◫</span><small>01</small><h3>Criação de sites</h3><p>Sites institucionais e landing pages rápidos, responsivos e preparados para gerar contatos.</p><a href="#contato" data-project="Site ou landing page">Quero um site <span>↗</span></a></article>
+        <article class="service-card reveal delay-1"><span class="service-icon" aria-hidden="true">⌘</span><small>02</small><h3>Sistemas personalizados</h3><p>Soluções feitas para o seu fluxo, substituindo controles manuais e planilhas espalhadas.</p><a href="#contato" data-project="Sistema personalizado">Organizar meu processo <span>↗</span></a></article>
+        <article class="service-card reveal delay-2"><span class="service-icon" aria-hidden="true">▥</span><small>03</small><h3>Dashboards</h3><p>Indicadores claros para acompanhar produtividade, estoque, perdas, vendas e desempenho.</p><a href="#contato" data-project="Dashboard">Visualizar meus dados <span>↗</span></a></article>
+        <article class="service-card reveal"><span class="service-icon" aria-hidden="true">◎</span><small>04</small><h3>Automação de processos</h3><p>Automatizações que reduzem tarefas repetitivas, erros e tempo gasto na operação.</p><a href="#contato" data-project="Automação de processos">Automatizar uma tarefa <span>↗</span></a></article>
+        <article class="service-card service-wide reveal delay-1"><span class="service-icon" aria-hidden="true">⇄</span><small>05</small><h3>Integrações e soluções sob medida</h3><p>Integração entre ferramentas, MVPs para validar ideias e projetos especiais pensados para sua necessidade.</p><a href="#contato" data-project="Solução sob medida">Conversar sobre minha ideia <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="mid-cta reveal" aria-label="Chamada para orçamento">
+      <div><span>Não sabe qual solução precisa?</span><h2>Conte o problema. Eu ajudo a encontrar o melhor caminho.</h2></div>
+      <a class="button button-dark" data-whatsapp data-message="Olá, Alessandro! Tenho um processo na minha empresa que preciso melhorar e gostaria de conversar." href="#contato">Falar no WhatsApp <span>↗</span></a>
+    </section>
+
+    <section class="section projects" id="projetos">
+      <div class="section-heading reveal">
+        <div><span class="section-index">02 / PROJETOS</span><h2>Projetos que transformam<br><em>problemas em soluções.</em></h2></div>
+        <p>Mais do que telas bonitas: cada projeto organiza informações, simplifica tarefas e ajuda pessoas a trabalharem melhor.</p>
+      </div>
+
+      <div class="case-list">
+        <article class="case-card case-green reveal">
+          <div class="case-visual">
+            <div class="mock-app"><div class="mock-top"><b>LacerdaFlux</b><span>● ● ●</span></div><div class="mock-body"><aside><i></i><i></i><i></i><i></i></aside><div><small>CENTRAL DE OPERAÇÕES</small><h3>Visão geral</h3><div class="mock-kpis"><span><small>ESTOQUE</small><b>12.458</b></span><span><small>SKUS</small><b>1.284</b></span><span><small>DIVERGÊNCIAS</small><b>14</b></span></div><div class="mock-rows"><i></i><i></i><i></i></div></div></div></div>
+          </div>
+          <div class="case-content"><span class="case-type">SISTEMA WMS · SAAS</span><h3>LacerdaFlux</h3><p class="case-summary">Controle de estoque, movimentações e inventário em uma plataforma simples para pequenas empresas.</p><dl><div><dt>Problema</dt><dd>Informações espalhadas e pouca visibilidade da operação.</dd></div><div><dt>Solução</dt><dd>Dashboard, produtos, endereços, contagem por câmera e divergência automática.</dd></div></dl><div class="tech-list"><span>Python</span><span>Flask</span><span>SQLite</span><span>JavaScript</span></div><a class="case-link" href="https://lacerdaflux.onrender.com" target="_blank" rel="noopener">Visualizar projeto <span>↗</span></a></div>
+        </article>
+
+        <article class="case-card case-blue reveal">
+          <div class="case-visual"><div class="phone-pair"><div class="phone-card back"><small>INVENTÁRIO</small><b>Escaneie a posição</b><div class="scan-target">⌗</div></div><div class="phone-card"><small>CONTAGEM</small><b>SKU 78945</b><span>Sistema <strong>120</strong></span><span>Contado <strong>118</strong></span><em>Diferença −2</em><button>Confirmar</button></div></div></div>
+          <div class="case-content"><span class="case-type">INVENTÁRIO · DASHBOARD</span><h3>Cycle Count Dashboard</h3><p class="case-summary">Gestão de inventários com produtividade, divergências e evolução operacional.</p><dl><div><dt>Problema</dt><dd>Contagens lentas e pouca clareza sobre erros e desempenho.</dd></div><div><dt>Solução</dt><dd>Leitura de posição e SKU, acompanhamento por operador e indicadores de qualidade.</dd></div></dl><div class="tech-list"><span>Dashboard</span><span>Mobile</span><span>Analytics</span></div><a class="case-link" href="https://cycle-count-dashboard-cad-rs.onrender.com/" target="_blank" rel="noopener">Visualizar projeto <span>↗</span></a></div>
+        </article>
+
+        <article class="case-card case-coffee reveal">
+          <div class="case-visual"><div class="pos-card"><div><b>GRANCAFÉ</b><small>CAIXA ABERTO</small></div><h3>Venda simples.<br><em>Gestão completa.</em></h3><ul><li>Café expresso <b>R$ 8,00</b></li><li>Capuccino <b>R$ 12,00</b></li><li>Pão de queijo <b>R$ 7,50</b></li></ul><button>Finalizar venda</button></div></div>
+          <div class="case-content"><span class="case-type">PDV · AUTOMAÇÃO</span><h3>GranCafé</h3><p class="case-summary">Caixa completo para cafeteria com vendas, estoque, fechamento e comprovantes.</p><dl><div><dt>Problema</dt><dd>Vendas e estoque controlados manualmente durante a operação.</dd></div><div><dt>Solução</dt><dd>Fluxo rápido de venda, baixa automática e histórico centralizado.</dd></div></dl><div class="tech-list"><span>Apps Script</span><span>Google Sheets</span><span>PDV</span></div><span class="case-status">Projeto real</span></div>
+        </article>
+
+        <article class="case-card case-purple reveal">
+          <div class="case-visual"><div class="flow-card"><span>Empresa cadastrada</span><i></i><span>Contrato ativo</span><i></i><span>Financeiro calculado ✓</span></div></div>
+          <div class="case-content"><span class="case-type">GESTÃO · FINANCEIRO</span><h3>Gestão de Estágios</h3><p class="case-summary">Empresas, contratos, estagiários, pagamentos e indicadores em uma única rotina.</p><dl><div><dt>Problema</dt><dd>Dados administrativos e financeiros difíceis de acompanhar.</dd></div><div><dt>Solução</dt><dd>Cadastros conectados, cálculos automáticos e visão gerencial.</dd></div></dl><div class="tech-list"><span>Python</span><span>Flask</span><span>Banco de dados</span></div><span class="case-status">Projeto real</span></div>
+        </article>
+      </div>
+
+      <div class="other-projects reveal">
+        <div><span>CONTROLE OPERACIONAL</span><h3>Sobras &amp; Avarias</h3><p>Registro e análise de perdas por SKU, área e motivo.</p></div>
+        <div><span>VAREJO</span><h3>Sistema de Supermercado</h3><p>Caixa, produtos, vendas e controle de estoque.</p></div>
+        <div><span>ORGANIZAÇÃO</span><h3>Estoque de Ferramentas</h3><p>Localização e controle de itens organizados por caixas.</p></div>
+      </div>
     </section>
 
     <section class="section process" id="processo">
-      <div class="reveal"><span class="kicker">03 / PROCESSO</span><h2>Da ideia ao produto<br><em>pronto para usar.</em></h2></div>
-      <div class="process-grid">
-        <article class="reveal"><span>01</span><div class="process-icon">◎</div><h3>Descoberta</h3><p>Entendo seu negócio, o problema e o resultado que você precisa alcançar.</p></article>
-        <article class="reveal delay-1"><span>02</span><div class="process-icon">◇</div><h3>Protótipo</h3><p>Organizo os fluxos e mostro a solução visualmente antes de construir tudo.</p></article>
-        <article class="reveal delay-2"><span>03</span><div class="process-icon">⌘</div><h3>Desenvolvimento</h3><p>Transformo a ideia em um produto funcional, responsivo e bem testado.</p></article>
-        <article class="reveal delay-3"><span>04</span><div class="process-icon">↗</div><h3>Entrega e evolução</h3><p>Coloco no ar, acompanho o uso e evoluo o produto conforme a necessidade.</p></article>
+      <div class="section-heading reveal"><div><span class="section-index">03 / COMO FUNCIONA</span><h2>Um processo claro,<br><em>do contato à entrega.</em></h2></div><p>Você acompanha cada etapa e entende o que está sendo construído antes do investimento avançar.</p></div>
+      <ol class="process-list">
+        <li class="reveal"><span>01</span><div class="process-symbol">✦</div><h3>Você me chama</h3><p>Conte sua ideia ou o problema que precisa resolver.</p></li>
+        <li class="reveal delay-1"><span>02</span><div class="process-symbol">◎</div><h3>Entendo a necessidade</h3><p>Conversamos sobre rotina, público, prioridades e objetivo.</p></li>
+        <li class="reveal delay-2"><span>03</span><div class="process-symbol">◇</div><h3>Planejo a solução</h3><p>Organizo escopo, telas, funcionamento, prazo e proposta.</p></li>
+        <li class="reveal"><span>04</span><div class="process-symbol">⌘</div><h3>Desenvolvo</h3><p>Construo e apresento a evolução para validações rápidas.</p></li>
+        <li class="reveal delay-1"><span>05</span><div class="process-symbol">↗</div><h3>Entrego e ajusto</h3><p>Publico, explico o uso e faço os ajustes combinados.</p></li>
+      </ol>
+    </section>
+
+    <section class="section about" id="sobre">
+      <div class="about-card reveal">
+        <div class="about-intro">
+          <span class="section-index">04 / SOBRE MIM</span>
+          <figure class="portrait">
+            <img src="alessandro-lacerda.jpg" alt="Alessandro Lacerda, desenvolvedor de sites, sistemas e automações" width="900" height="1125" loading="lazy">
+          </figure>
+        </div>
+        <div class="about-copy"><h2>Desenvolvimento com visão de <em>negócio e operação.</em></h2><p>Sou Alessandro Lacerda. Crio sites, sistemas, dashboards, MVPs e automações para transformar necessidades reais em ferramentas que as pessoas conseguem usar no dia a dia.</p><p>Meu foco é entender o processo antes de escrever código. Assim, cada tela tem um propósito e cada funcionalidade ajuda a empresa a ganhar organização, velocidade ou controle.</p><a href="#contato">Conte o que você precisa <span>↗</span></a></div>
       </div>
     </section>
 
-    <section class="value-strip">
-      <div><strong>WEB</strong><span>Sites e sistemas responsivos</span></div>
-      <div><strong>MOBILE</strong><span>Experiência pensada para celular</span></div>
-      <div><strong>MVP</strong><span>Validação antes do grande investimento</span></div>
+    <section class="technology" aria-label="Tecnologias e capacidades">
+      <div class="tech-copy reveal"><span class="section-index">05 / TECNOLOGIAS</span><h2>Ferramentas escolhidas para cada solução.</h2><p>Sem complicar por complicar: uso a tecnologia que melhor atende o projeto, o orçamento e a evolução futura.</p></div>
+      <div class="technology-cloud reveal delay-1"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>Flask</span><span>FastAPI</span><span>PostgreSQL</span><span>SQLite</span><span>Google Apps Script</span><span>APIs</span><span>Render</span><span>GitHub</span></div>
     </section>
 
     <section class="section contact" id="contato">
-      <div class="contact-card reveal">
-        <div class="contact-glow"></div>
-        <span class="kicker">VAMOS CONSTRUIR ALGO ÚTIL?</span>
-        <h2>Sua próxima ideia<br>merece <em>sair do papel.</em></h2>
-        <p>Conte o que você precisa. Eu preparo uma mensagem organizada para começarmos a conversa.</p>
+      <div class="contact-shell reveal">
+        <div class="contact-copy"><span class="section-index">VAMOS CONVERSAR?</span><h2>Vamos tirar sua ideia<br><em>do papel.</em></h2><p>Preencha os campos e sua mensagem será preparada automaticamente para o WhatsApp.</p><div class="contact-direct"><small>CONTATO DIRETO</small><a href="https://wa.me/5551984384312" target="_blank" rel="noopener">(51) 98438-4312 ↗</a><span>Porto Alegre / RS · Atendimento online</span></div></div>
         <form id="contactForm">
-          <div class="form-row"><label>Seu nome<input name="name" required placeholder="Como posso chamar você?"></label><label>Tipo de projeto<select name="type"><option>Aplicativo</option><option>Site ou landing page</option><option>Sistema empresarial</option><option>MVP</option><option>Automação</option><option>Outro</option></select></label></div>
-          <label>Sobre a ideia<textarea name="message" required rows="4" placeholder="Conte brevemente o que você quer criar..."></textarea></label>
-          <button class="button button-light" type="submit">Preparar mensagem <span>↗</span></button>
-          <small id="formHint">A conversa será aberta diretamente no WhatsApp de Alessandro.</small>
+          <div class="form-grid"><label>Nome<input name="name" required autocomplete="name" placeholder="Seu nome"></label><label>Empresa<input name="company" autocomplete="organization" placeholder="Nome da empresa (opcional)"></label></div>
+          <label>Tipo de projeto<select name="type" required><option value="">Selecione uma opção</option><option>Site ou landing page</option><option>Sistema personalizado</option><option>Dashboard</option><option>Automação de processos</option><option>MVP</option><option>Integração ou outra solução</option></select></label>
+          <label>O que você precisa?<textarea name="message" rows="5" required minlength="10" placeholder="Conte brevemente o problema, processo ou ideia..."></textarea></label>
+          <button class="button button-primary" type="submit">Enviar pelo WhatsApp <span>↗</span></button>
+          <small class="privacy-note">Sem cadastro e sem spam. A conversa abre diretamente com Alessandro.</small>
         </form>
       </div>
+    </section>
+
+    <section class="final-cta">
+      <span>PRONTO PARA COMEÇAR?</span>
+      <h2>Uma boa solução começa com uma conversa simples.</h2>
+      <a class="button button-dark" data-whatsapp data-message="Olá, vi seu portfólio e gostaria de solicitar um orçamento." href="#contato">Fale comigo no WhatsApp <span>↗</span></a>
     </section>
   </main>
 
   <footer>
-    <a class="wordmark" href="#inicio"><span>ALESSANDRO</span><b>LACERDA</b></a>
-    <p>Apps · Sites · Sistemas · MVPs · Porto Alegre/RS</p>
+    <a class="brand" href="#inicio"><span class="brand-mark">AL</span><span>Alessandro <b>Lacerda</b></span></a>
+    <p>Sites · Sistemas · Dashboards · Automações</p>
     <a href="https://wa.me/5551984384312" target="_blank" rel="noopener">WhatsApp: (51) 98438-4312 ↗</a>
-    <small>© 2026 Alessandro Lacerda · Todos os direitos reservados.</small>
+    <small>© 2026 Alessandro Lacerda. Todos os direitos reservados.</small>
   </footer>
+
+  <a class="whatsapp-float" data-whatsapp data-message="Olá, vi seu portfólio e gostaria de solicitar um orçamento." href="#contato" aria-label="Falar com Alessandro no WhatsApp"><span>◉</span><b>WhatsApp</b></a>
   <div class="toast" role="status" aria-live="polite"></div>
   <script src="script.js"></script>
 </body>
 </html>
+
